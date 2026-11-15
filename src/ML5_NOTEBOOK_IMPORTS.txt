@@ -1,0 +1,75 @@
+ml5_01_EDA.ipynb
+import pandas as pd
+import numpy as np
+from pathlib import Path
+
+ml5_01_split_jacquieb.ipynb
+import pandas as pd
+import numpy as np
+from pathlib import Path
+from ml3_03_data_split_methods_jacquieb import split_by_date_ratio_train_validation_test
+from ml3_03_split_visualization_jacquieb import visualize_train_valid_test_split
+
+ml5_02_decision_tree_jacquieb.ipynb
+import warnings
+from pathlib import Path
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import OneHotEncoder
+import numpy as np
+from scipy.sparse import csc_matrix
+from sklearn.metrics import roc_auc_score
+from sklearn.tree import DecisionTreeClassifier as SklearnDecisionTreeClassifier
+
+ml5_05_random_forest_jacquieb.ipynb
+from scipy.sparse import csc_matrix
+import warnings
+from pathlib import Path
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import OneHotEncoder
+import numpy as np
+from sklearn.metrics import roc_auc_score
+
+ml5_06_gbdt_jacquieb.ipynb
+import warnings
+import numpy as np
+from scipy.special import expit
+from pathlib import Path
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import OneHotEncoder
+from scipy.sparse import csc_matrix
+from sklearn.metrics import roc_auc_score
+
+ml5_07_gbdt_libraries_jacquieb.ipynb
+from pathlib import Path
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import OneHotEncoder
+from catboost import CatBoostClassifier
+from lightgbm import LGBMClassifier
+from sklearn.metrics import roc_auc_score
+from xgboost import XGBClassifier
+from time import perf_counter
+from sklearn.preprocessing import StandardScaler
+
+ml5_09_extra_trees_jacquieb.ipynb
+import warnings
+from pathlib import Path
+import pandas as pd
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import OneHotEncoder
+import numpy as np
+from sklearn.metrics import roc_auc_score
+
